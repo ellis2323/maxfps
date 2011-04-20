@@ -81,7 +81,7 @@ public class GLES20Renderer implements GLSurfaceView.Renderer {
         mActivity.mHandler.post(new Runnable() {
             @Override
             public void run() {
-                mActivity.setTitle("" + mTimer.getFPS() + "FPS");
+                mActivity.setTitle("" + mTimer.getF32FPS() + "FPS");
             }
         });
 

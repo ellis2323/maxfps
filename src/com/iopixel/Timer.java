@@ -58,6 +58,15 @@ public class Timer {
         return (int)((long)1000 / avg);
     }
 
+    public float getF32FPS() {
+        long sum = 0;
+        for (int i=0; i < mValues.length; i++) {
+            sum += mValues[i];
+        }
+        long avg = sum / mValues.length + 1;
+        return (float)1000. / (float)avg;
+    }
+
     // variable for logFPS
     private long mLastLogFPS = 0;
 
