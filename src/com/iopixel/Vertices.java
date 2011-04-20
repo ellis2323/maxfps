@@ -1,6 +1,22 @@
-package com.ellismarkov;
+package com.iopixel;
 
-import android.opengl.GLES20;
+/*
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2011
+
+ Copyright (C) 2011 <laurent.mallet_at_gmail.com>
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+*/
+
+/* Support us on http://www.iopixel.com */
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
