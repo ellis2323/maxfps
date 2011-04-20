@@ -29,7 +29,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
-public class Episode1 extends Activity {
+public class MaxFPS extends Activity {
 
     //! OpenGL SurfaceView
     public GLSurfaceView mGLSurfaceView;

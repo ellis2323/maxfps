@@ -32,7 +32,7 @@ public class GLES20Renderer implements GLSurfaceView.Renderer {
 
     public final static int MAX_POINTS = 10;
 
-    private Episode1 mActivity;
+    private MaxFPS mActivity;
 
     private GLSLProgram mProgramme1;
 
@@ -42,7 +42,7 @@ public class GLES20Renderer implements GLSurfaceView.Renderer {
 
 
 
-    GLES20Renderer(Episode1 activity) {
+    GLES20Renderer(MaxFPS activity) {
         mActivity = activity;
         mTimer = new Timer();
     }
