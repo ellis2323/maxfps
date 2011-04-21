@@ -1,7 +1,7 @@
 Max FPS
 -------
 
-Stupid program to compute MaxFPS
+Stupid program to compute MaxFPS and cpu(s) usage.
 
 
 Code: Ellis from iopixel
@@ -22,5 +22,7 @@ Result:
  * 55.555557: Galaxy S
  * 58.82353: Thunderbolt
  * 58.82: Nexus One
- * 111: Optimus 2X
  * 62.5: Nexus S
+ * 58.33: Xoom 
+ * 76: Altrix
+ * 111: Optimus 2X
