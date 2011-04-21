@@ -30,7 +30,7 @@ public class SystemInformation {
         String maxFreq = "";
 
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("/sys/devices/system/cpu/cpu" + id + "/cpufreq/cpuinfo_max_freq"), 256);
+            BufferedReader reader = new BufferedReader(new FileReader("/sys/devices/system/cpu/cpu" + id + "/cpufreq/scaling_cur_freq"), 256);
             try {
                 maxFreq = reader.readLine();
             } finally {
