@@ -27,7 +27,10 @@ import android.content.pm.ConfigurationInfo;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.WindowManager;
+
+import java.io.IOException;
 
 public class MaxFPS extends Activity {
 
@@ -58,6 +61,11 @@ public class MaxFPS extends Activity {
         setContentView(mGLSurfaceView);
 
         mHandler = new Handler();
+
+        if (SystemInformation.isSuAvailable(this)) {
+            String contain = SystemInformation.canGainSuFor(this, "cat /proc/vmallocinfo");
+        }
+
     }
 
     @Override

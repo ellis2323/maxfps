@@ -19,10 +19,11 @@ Support us:
 
 
 Result:
- * 55.555557: Galaxy S
- * 58.82353: Thunderbolt
+ * 58.82: Galaxy S2
+ * 55.56: Galaxy S
+ * 58.82: Thunderbolt
  * 58.82: Nexus One
  * 62.5: Nexus S
- * 58.33: Xoom 
+ * 58.33: Xoom  (40fps orientation bug?) ~600Mhz
  * 76: Altrix
  * 111: Optimus 2X
